@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web Futurista</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Agregar para los íconos -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#objetivos">Objetivos</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#nosotros">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#plan">Plan</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#propuestas">Propuestas</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero-section" id="inicio">
+        <div class="container">
+            <h1 class="futuristic-text">Bienvenidos a CEIS FORIM</h1>
+            <p class="style1">"Fortaleciendo la unión, impulsando el cambio"</p>
+        </div>
+    </section>
+
+    
+    <section id="objetivos" class="container my-5">
+        <div class="objetivos"> 
+            <h2>🎯 Objetivos</h2>
+            <ul>
+                <li><i class="fas fa-user-graduate"></i>  Promover el desarrollo académico y profesional de nuestros miembros.</li>
+                <li><i class="fas fa-lightbulb"></i> Fomentar la innovación y la investigación en diversas áreas.</li>
+                <li><i class="fas fa-user"></i> Fortalecer la comunidad a través de iniciativas de impacto social.</li>
+                <li><i class="fas fa-leaf"></i>  Impulsar proyectos sostenibles y ecológicos.</li>
+                <li><i class="fas fa-universal-access"></i>  Desarrollar estrategias para la inclusión y equidad educativa.</li>
+            </ul>
+        </div>
+        
+    </section>
+    
+   
+    <div class="container">
+            <h1 class="section-title" id="nosotros">Nuestro Equipo Directivo</h1>
+            
+            <div class="row">
+                <!-- Presidente -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card team-card">
+                        <div class="card-header">
+                            <img src="img/presi.png" class="team-img" alt="Presidente">
+                            <a href="https://wa.me/978118205" target="_blank" class="whatsapp-icon">
+                                <img src="img/wh.svg" width="24" height="24" alt="WhatsApp">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">CAMPOS PORRAS, Frank Crismar</h5>
+                            <p class="card-position">Presidente | 22 años</p>
+                            <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#descPresidente" aria-expanded="true">
+                                Ver información
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <div class="member-description collapse" id="descPresidente">
+                                <p><i class="fas fa-graduation-cap description-icon"></i>Estudiante del quinto ciclo, comprometido con la formación personal y profesional.</p>
+                                <p><i class="fas fa-lightbulb description-icon"></i>Busco establecer y fortalecer la unidad, así como la identidad estudiantil con respecto a nuestra escuela de Ingeniería de Sistemas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Vicepresidente -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card team-card">
+                        <div class="card-header">
+                            <img src="img/vice.png" class="team-img" alt="Vicepresidente">
+                            <a href="https://wa.me/900475184" target="_blank" class="whatsapp-icon">
+                                <img src="img/wh.svg" width="24" height="24" alt="WhatsApp">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">NAVARRO GUILLEN, Emerson</h5>
+                            <p class="card-position">Vicepresidente | 21 años</p>
+                            <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#descVicepresidente" aria-expanded="false">
+                                Ver información
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <div class="member-description collapse" id="descVicepresidente">
+                                <p><i class="fas fa-graduation-cap description-icon"></i>Estudiante del octavo ciclo, comprometido con el trabajo y el desarrollo de nuestra escuela.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Coordinador de Actas y Acuerdos -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card team-card">
+                        <div class="card-header">
+                            <img src="img/cor.png" class="team-img" alt="Coordinador de Actas">
+                            <a href="https://wa.me/949733642" target="_blank" class="whatsapp-icon">
+                                <img src="img/wh.svg" width="24" height="24" alt="WhatsApp">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">GUTIÉRREZ SOSA, Bichenso Ranses</h5>
+                            <p class="card-position">Coordinador de Actas y Acuerdos | 22 años</p>
+                            <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#descActas" aria-expanded="false">
+                                Ver información
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <div class="member-description collapse" id="descActas">
+                                <p><i class="fas fa-graduation-cap description-icon"></i>Estudiante del octavo ciclo, comprometido con la organización y gestión de acuerdos.</p>
+                                <p><i class="fas fa-lightbulb description-icon"></i>Busco mejorar la comunicación y documentación dentro de nuestra comunidad estudiantil.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Coordinador Académico -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card team-card">
+                        <div class="card-header">
+                            <img src="img/cris.png" class="team-img" alt="Coordinador Académico">
+                            <a href="https://wa.me/915389913" target="_blank" class="whatsapp-icon">
+                                <img src="img/wh.svg" width="24" height="24" alt="WhatsApp">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">LLALLAHUI GOMEZ, Cristian mier</h5>
+                            <p class="card-position">Coordinador Académico</p>
+                            <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#descAcademico" aria-expanded="false">
+                                Ver información
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <div class="member-description collapse" id="descAcademico">
+                                <p><i class="fas fa-graduation-cap description-icon"></i>Estudiante del quinto ciclo.</p>
+                                <p><i class="fas fa-lightbulb description-icon"></i>Busco alcanzar la       excelencia académica y fortalecer nuestras habilidades profesionales y
+                                    Fomentar la innovación tecnológica y contribuir al crecimiento de nuestra comunidad universitaria.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Coordinador de Relaciones Públicas -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card team-card">
+                        <div class="card-header">
+                            <img src="img/A.png" class="team-img" alt="Coordinador de Relaciones Públicas">
+                            <a href="https://wa.me/927570655" target="_blank" class="whatsapp-icon">
+                                <img src="img/wh.svg" width="24" height="24" alt="WhatsApp">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">HUAMANÍ RIVERA, Alexis</h5>
+                            <p class="card-position">Coordinador de Relaciones Públicas | 20 años</p>
+                            <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#descRelaciones" aria-expanded="false">
+                                Ver información
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <div class="member-description collapse" id="descRelaciones">
+                                <p><i class="fas fa-graduation-cap description-icon"></i>Estudiante del quinto ciclo.</p>
+                                <p><i class="fas fa-lightbulb description-icon"></i>Comprometido en crear conexiones y difundir información clave para fortalecer la comunidad estudiantil.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Coordinador Económico y Desarrollo -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card team-card">
+                        <div class="card-header">
+                            <img src="img/ec.png" class="team-img" alt="Coordinador Económico">
+                            <a href="https://wa.me/992406271" target="_blank" class="whatsapp-icon">
+                                <img src="img/wh.svg" width="24" height="24" alt="WhatsApp">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">GUTIÉRREZ GUTIÉRREZ, Keyla</h5>
+                            <p class="card-position">Coordinador Económico y Desarrollo | 21 años</p>
+                            <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#descEconomico" aria-expanded="false">
+                                Ver información
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <div class="member-description collapse" id="descEconomico">
+                                <p><i class="fas fa-graduation-cap description-icon"></i>Estudiante del quinto ciclo.</p>
+                                <p><i class="fas fa-lightbulb description-icon"></i>Interesado en la gestión económica y el desarrollo comunitario, trabajando para manejar recursos de manera eficiente y apoyar el crecimiento de la comunidad estudiantil.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Coordinador de Deporte (1) -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card team-card">
+                        <div class="card-header">
+                            <img src="img/cord1.png" class="team-img" alt="Coordinador de Deporte 1">
+                            <a href="https://wa.me/914935910" target="_blank" class="whatsapp-icon">
+                                <img src="img/wh.svg" width="24" height="24" alt="WhatsApp">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">GARCÍA MOISÉS, Hans Angel</h5>
+                            <p class="card-position">Coordinador de Deporte (1) </p>
+                            <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#descDeporte1" aria-expanded="false">
+                                Ver información
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <div class="member-description collapse" id="descDeporte1">
+                                <p><i class="fas fa-graduation-cap description-icon"></i>Estudiante del quinto ciclo.</p>
+                                <p><i class="fas fa-lightbulb description-icon"></i>Promover el deporte, salud y socialización en los estudiantes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Coordinador de Deporte (2) -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card team-card">
+                        <div class="card-header">
+                            <img src="img/m.png" class="team-img" alt="Coordinador de Deporte 2">
+                            <a href="https://wa.me/989928650" target="_blank" class="whatsapp-icon">
+                                <img src="img/wh.svg" width="24" height="24" alt="WhatsApp">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">JUAN CARLOS QUISPE MENDOZA</h5>
+                            <p class="card-position">Coordinador de Deporte (2)</p>
+                            <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#descDeporte2" aria-expanded="false">
+                                Ver información
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <div class="member-description collapse" id="descDeporte2">
+                                <p><i class="fas fa-graduation-cap description-icon"></i>Estudiante del séptimo ciclo.</p>
+                                <p><i class="fas fa-lightbulb description-icon"></i>Fomentar la unión y el trabajo en equipo dentro de la Escuela de Ingeniería de Sistemas a través del deporte, fortaleciendo la convivencia estudiantil y mejorando el rendimiento en cada disciplina para alcanzar la victoria en las competencias deportivas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!cordinador de eventos culturales!>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card team-card">
+                        <div class="card-header">
+                            <img src="img/l.png" class="team-img" alt="cordinador de eventos culturales">
+                            <a href="https://wa.me/985476251" target="_blank" class="whatsapp-icon">
+                                <img src="img/wh.svg" width="24" height="24" alt="WhatsApp">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">TAPAHUASCO GALINDO, LUIS ALBERTO</h5>
+                            <p class="card-position">Coordinador de eventos culturales | (400)</p>
+                            <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#desCultural" aria-expanded="false">
+                                Ver información
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <div class="member-description collapse" id="desCultural">
+                                <p><i class="fas fa-graduation-cap description-icon"></i>Estudiante del séptimo ciclo.</p>
+                                <p><i class="fas fa-lightbulb description-icon"></i>Fomentar la unión y el trabajo en equipo dentro de la Escuela de Ingeniería de Sistemas a través del deporte, fortaleciendo la convivencia estudiantil y mejorando el rendimiento en cada disciplina para alcanzar la victoria en las competencias deportivas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Coordinador de Prensa -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card team-card">
+                        <div class="card-header">
+                            <img src="img/r.png" class="team-img"  alt="Coordinador de prensa y publicidad">
+                            <a href="https://wa.me/914935910" target="_blank" class="whatsapp-icon">
+                                <img src="img/wh.svg" width="24" height="24" alt="WhatsApp">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">ASTO CURO, Royer</h5>
+                            <p class="card-position">Coordinador de prensa y publicidad | Serie: (200)</p>
+                            <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#descPrensa" aria-expanded="false">
+                                Ver información
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <div class="member-description collapse" id="descPrensa">
+                                <p><i class="fas fa-graduation-cap description-icon"></i>Estudiante del Tercer ciclo.</p>
+                                <p><i class="fas fa-lightbulb description-icon"></i>Promover el bienestar integral de los estudiantes, fomentando hábitos saludables, la interacción social y una vida universitaria activa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Vocal -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card team-card">
+                        <div class="card-header">
+                            <img src="img/100.png" class="team-img" alt="Vocal">
+                            <a href="https://wa.me/989928650" target="_blank" class="whatsapp-icon">
+                                <img src="img/wh.svg" width="24" height="24" alt="WhatsApp">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">LIZANO CURI, Alexander</h5>
+                            <p class="card-position">Vocal  | (100)</p>
+                            <button class="toggle-btn" data-bs-toggle="collapse" data-bs-target="#vocal" aria-expanded="false">
+                                Ver información
+                            </button>
+                        </div>
+                        <div class="card-footer">
+                            <div class="member-description collapse" id="vocal">
+                                <p><i class="fas fa-graduation-cap description-icon"></i>Estudiante del primer ciclo.</p>
+                                <p><i class="fas fa-lightbulb description-icon"></i>Fomentar el bienestar estudiantil, promoviendo la salud, la convivencia y una vida universitaria dinámica.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <section class="academic-improvement py-5">
+            <div class="container">
+              <h2 class="text-center mb-5 fw-bold display-4">
+                <i class="fas fa-graduation-cap me-3"></i>Propuestas de Mejora y Desarrollo Académico
+              </h2>
+          
+              <div class="row g-4">
+                <!-- Unidad y Comunicación -->
+                <div class="col-md-6 col-lg-4">
+                  <div class="card h-100 shadow-sm border-0 rounded-4">
+                    <div class="card-body p-4">
+                      <div class="icon-wrapper bg-primary bg-gradient mb-3">
+                        <i class="fas fa-users"></i>
+                      </div>
+                      <h3 class="h4 fw-bold mb-3">Unidad y Comunicación entre Series</h3>
+                      <ul class="improvement-list">
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Estrategias para fomentar unidad estudiantil</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Participación en actividades escolares</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Reuniones interseries para compartir experiencias</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Canal de comunicación digital colaborativo</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Compartir experiencias laborales y académicas</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Mejoras en Laboratorios -->
+                <div class="col-md-6 col-lg-4">
+                  <div class="card h-100 shadow-sm border-0 rounded-4">
+                    <div class="card-body p-4">
+                      <div class="icon-wrapper bg-danger bg-gradient mb-3">
+                        <i class="fas fa-flask"></i>
+                      </div>
+                      <h3 class="h4 fw-bold mb-3">Mejoras en Laboratorios</h3>
+                      <ul class="improvement-list">
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Sistema de matrículas para laboratorios</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Estrategias para optimizar horarios</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Mantenimiento de equipos tecnológicos</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Solución a problemas de conectividad</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Fortalecimiento de Tutorías -->
+                <div class="col-md-6 col-lg-4">
+                  <div class="card h-100 shadow-sm border-0 rounded-4">
+                    <div class="card-body p-4">
+                      <div class="icon-wrapper bg-warning bg-gradient mb-3">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                      </div>
+                      <h3 class="h4 fw-bold mb-3">Fortalecimiento de Tutorías</h3>
+                      <ul class="improvement-list">
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Asesoría académica para series inferiores</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Plataformas virtuales de apoyo en tiempo real</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Compartir recursos educativos</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Reconocimientos académicos para tutores</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Sábados Informáticos -->
+                <div class="col-md-6 col-lg-4">
+                  <div class="card h-100 shadow-sm border-0 rounded-4">
+                    <div class="card-body p-4">
+                      <div class="icon-wrapper bg-info bg-gradient mb-3">
+                        <i class="fas fa-laptop-code"></i>
+                      </div>
+                      <h3 class="h4 fw-bold mb-3">Sábados Informáticos</h3>
+                      <ul class="improvement-list">
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Jornadas de capacitación tecnológica</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Talleres de programación y seguridad</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Concursos de innovación tecnológica</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Prácticas y Convenios -->
+                <div class="col-md-6 col-lg-4">
+                  <div class="card h-100 shadow-sm border-0 rounded-4">
+                    <div class="card-body p-4">
+                      <div class="icon-wrapper bg-success bg-gradient mb-3">
+                        <i class="fas fa-handshake"></i>
+                      </div>
+                      <h3 class="h4 fw-bold mb-3">Prácticas y Convenios</h3>
+                      <ul class="improvement-list">
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Vinculación con empresas para prácticas</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Intercambio académico entre series</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Congresos nacionales e internacionales</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Participación en conferencias especializadas</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Propuestas a Largo Plazo -->
+                <div class="col-md-6 col-lg-4">
+                  <div class="card h-100 shadow-sm border-0 rounded-4">
+                    <div class="card-body p-4">
+                      <div class="icon-wrapper bg-purple bg-gradient mb-3">
+                        <i class="fas fa-chart-line"></i>
+                      </div>
+                      <h3 class="h4 fw-bold mb-3">Visión Futura</h3>
+                      <ul class="improvement-list">
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Base de datos de prácticas pasadas</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Centro de Investigación y Desarrollo</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Mejora de infraestructura</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Portal web de transparencia</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i> Reglamento académico actualizado</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </section>
+        
+    <section id="plan" class="container my-5">
+        <h1 class="futuristic-text">Nuestro Plan de Trabajo</h1>
+        <p>Para el desarrollo y crecimiento incluye múltiples iniciativas...</p>
+        
+        <!-- Visualización del PDF -->
+        <embed src="doc/doc.pdf" type="application/pdf" width="100%" height="600px" />
+    
+        <!-- Botón para descargar el PDF -->
+        <p><a href="doc/doc.pdf" class="btn btn-primary" download>Descargar Plan en PDF</a></p>
+    </section>
+    
+    
+
+    
+    
+    <footer class="bg-dark text-white text-center py-3">
+        <p >&copy; 2025 CEIS FORIM (ENG_DEV) - Todos los derechos reservados.</p>
+    </footer>
+    
+    
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
